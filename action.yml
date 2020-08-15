@@ -1,5 +1,7 @@
 name: 'Proselint'
 description: 'Run proselint on all .md files'
 runs: 
-  using: 'docker'
-  image: 'Dockerfile'
+  using: "composite"
+  steps: 
+    - run: $GITHUB_ACTION_PATH/script.sh
+      shell: bash
