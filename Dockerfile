@@ -1,5 +1,5 @@
 # container image
-FROM alpine:3.12.0
+FROM ubuntu:latest
 
 COPY entrypoint.sh /entrypoint.sh
 
