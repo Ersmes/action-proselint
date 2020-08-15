@@ -1,1 +1,1 @@
-Johnson is a very unique individual.
+Johnson is an individual.
