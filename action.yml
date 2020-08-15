@@ -1,0 +1,5 @@
+name: 'Proselint'
+description: 'Run proselint on all .md files'
+runs: 
+  using: 'docker'
+  image: 'Dockerfile'
